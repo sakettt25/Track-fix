@@ -1,0 +1,102 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+.virtualenv
+
+# PyTorch Model Files
+*.pth
+*.pt
+*.ckpt
+rail_crack_model.pth
+
+# Dataset Folders
+Dataset/
+dataset/
+data/
+test/
+train/
+validation/
+
+# Output Files
+outputs/
+output/
+*_heatmap.jpg
+*_heatmap.png
+results.csv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IDE & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Streamlit
+.streamlit/
+
+# Logs
+*.log
+logs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Environment Variables
+.env
+.env.local
+
+# OS Files
+Thumbs.db
+.DS_Store
+*.bak
+
+# Temporary Files
+*.tmp
+temp/
+tmp/
+
+# Images (keep sample, ignore test outputs)
+# test_image.jpg
+# test_image.png
+# test_image.webp
+
+# Cache
+.cache/
+*.cache
