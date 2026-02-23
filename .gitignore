@@ -34,6 +34,8 @@ env/
 *.pth
 *.pt
 *.ckpt
+# Exception: Include the trained model for deployment
+!rail_crack_model.pth
 
 # Dataset Folders
 Dataset/
