@@ -34,7 +34,6 @@ env/
 *.pth
 *.pt
 *.ckpt
-rail_crack_model.pth
 
 # Dataset Folders
 Dataset/
